@@ -11,7 +11,9 @@
 [![VS code](https://img.shields.io/badge/vscode-143?style=for-the-badge&logo=visualstudiocode&logoColor=blue&color=green&labelColor=black)](https://code.visualstudio.com/) , [![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)](https://www.jetbrains.com/pycharm/)
 & [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
 
-[![DeepSource](https://deepsource.io/gh/just-innovative-bro/F.R.I.D.A.Y.svg/?label=active+issues&show_trend=true&token=f3jHPhnaIrNqz_PueZUY74M-)](https://deepsource.io/gh/just-innovative-bro/F.R.I.D.A.Y/?ref=repository-badge)
+### Active issues and Tests
+
+[![DeepSource](https://deepsource.io/gh/just-innovative-bro/F.R.I.D.A.Y.svg/?label=active+issues&show_trend=true&token=f3jHPhnaIrNqz_PueZUY74M-)](https://deepsource.io/gh/just-innovative-bro/F.R.I.D.A.Y/?ref=repository-badge)  [![CodeQL](https://github.com/just-innovative-bro/F.R.I.D.A.Y/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/just-innovative-bro/F.R.I.D.A.Y/actions/workflows/codeql-analysis.yml)  [![CircleCI](https://circleci.com/gh/just-innovative-bro/F.R.I.D.A.Y/tree/main.svg?style=svg)](https://circleci.com/gh/just-innovative-bro/F.R.I.D.A.Y/tree/main)
 
 ## Overview
 This is a virtual assistant made by python named **Friday** (motivated by iron man movies)
@@ -108,6 +110,7 @@ pip install opencv-python
 pip install pycopy-webbrowser
 pip install pyjokes
 pip install psutil
+pip install PyAudio
 ```
 for PyAudio if there is any problem in installing use this [click here](https://www.lfd.uci.edu/~gohlke/pythonlibs/) and search PyAudio and install
 or use this youtube video [click here](https://www.youtube.com/watch?v=-3am_5jMzJ4&t=307s)                                                                              
@@ -155,6 +158,7 @@ For App_Id of [Wolfram|Aplha App id](https://www.wolframalpha.com/) follow below
 12. [openCV](https://pypi.org/project/opencv-python/)
 13. [Webbrowser](https://pypi.org/project/pycopy-webbrowser/)
 14. [Psutill](https://pypi.org/project/psutil/)
+15. [Pyaudio](https://pypi.org/project/PyAudio/)
 
 
 ## Contributing
@@ -163,6 +167,15 @@ Pull requests are welcome. Please open an issue first to discuss what you would 
 ![Your Repository's Stats](https://contrib.rocks/image?repo=just-innovative-bro/F.R.I.D.A.Y)
 
 Please make sure to update tests as appropriate.
+
+## Qualities we are performing:-
+1. Addig Neurallints.
+2. Developing new gui.
+3. Reducing complexity.
+4. Adding Newer features.
+5. Reducing Bugs and outerscope variables.
+
+
 ## License
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
