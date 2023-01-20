@@ -1,4 +1,5 @@
 import os
+import shlex
 import sys
 from gtts import gTTS  # pip install gTTS
 import requests
@@ -213,7 +214,7 @@ def read_note():
 
 def cmd():
     """opens command promt"""
-    os.system("start cmd")
+    os.system(shlex.quote(cmd))
 
 
 def ip():
