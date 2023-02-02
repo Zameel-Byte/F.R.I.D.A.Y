@@ -1,5 +1,3 @@
-import os
-import shlex
 import sys
 from gtts import gTTS  # pip install gTTS
 import requests
@@ -93,7 +91,7 @@ def email(self):
     server.login(gmail, password)
     server.sendmail(gmail, send_to_person, message)
     server.quit()
-    speak("email has been sent to %s" % send_to_person)
+    speak(f"email has been sent to {send_to_person}")
 
 
 def quotes():
@@ -214,6 +212,8 @@ def read_note():
 
 def cmd():
     """opens command promt"""
+    import os
+    import shlex
     os.system(shlex.quote(cmd))
 
 
